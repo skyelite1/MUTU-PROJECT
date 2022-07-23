@@ -1,0 +1,49 @@
+body {
+    background: #355764;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.content h1 {
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.button {
+    width: 250px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: salmon;
+    transition: 1s ease-in-out;
+    border: 2px solid salmon;
+}
+
+
+@media screen and (max-width: 600px) {
+    .content h1 {
+        font-size: 35px;
+    }
+}

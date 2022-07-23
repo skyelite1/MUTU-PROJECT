@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #355764;
+}
+
+.about {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.about h1 {
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.about p {
+    margin: 20px 100px;
+    line-height: 25px;
+    font-family: 'Roboto' sans-serif;
+}
